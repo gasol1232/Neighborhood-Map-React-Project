@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    font-size:  17px;
+}
+
+.search {
+    z-index: 1;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+
+.search-field {
+    width: 470px;
+    padding: 10px;
+    background-color: seashell;
+}
+
+ul {
+    background: #6896a3;
+    border: 1px solid darkgrey;
+    overflow: auto;
+    padding: 0 15px;
+    margin: 0;
+    max-height: 200px;
+    overflow: auto;
+}
+
+.box {
+    cursor: pointer;
+    padding: 5px;
+    display: block;
+}
+
+.box:hover {
+    background-color: #269abc;
+    color: white;
+}
+
+.button {
+    text-align: center;
+    padding: 5px;
+    background-color: #6896a3;
+    border: 1px darkgrey solid;
+    cursor: pointer;
+    width: 495px;
+}
