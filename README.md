@@ -1,8 +1,7 @@
 # Neighborhood Map Project React
 
 > By Cristihan Zuluaga
-![Part of the Udacity Front-End Web Development Nanodegree]
-(https://img.shields.io/badge/Udacity-React-02b3e4.svg)
+![Part of the Udacity Front-End Web Development Nanodegree](https://img.shields.io/badge/Udacity-React-02b3e4.svg)
 This application follow this [Udacity Project Rubric](https://review.udacity.com/#!/rubrics/1351/view)
 
 ## Overview:
