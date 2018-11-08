@@ -238,8 +238,9 @@ function loadMapJS(src) {
     var script = window.document.createElement("script");
     script.src = src;
     script.async = true;
-    script.onerror = function () {
-        document.write("Google Maps can't be loaded");
+   window.gm_authFailure = () => {
+     alert('ERROR!! \nFailed to get Google map.')
+     console.log('ERROR!! \nFailed to get Google map.');
     };
     ref.parentNode.insertBefore(script, ref);
 }
